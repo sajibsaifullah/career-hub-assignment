@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "company_logo": "../src/assets/Logo/google-1-1 1.png",
+    "job_title": "Software Developer",
+    "company_name": "Acme Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "Competitive",
+    "job_description": "Acme Inc. is seeking a skilled software developer to join our growing team...",
+    "job_responsibility": "Responsibilities include writing and testing code, collaborating with team members...",
+    "educational_requirements": "Bachelor's degree in computer science or a related field",
+    "experiences": "Minimum of 2 years of experience in software development",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "careers@acmeinc.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "../src/assets/Logo/tesla-9 1.png",
+    "job_title": "Marketing Manager",
+    "company_name": "Globex Corporation",
+    "remote_or_onsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "75,000-100,000",
+    "job_description": "Globex Corporation is seeking an experienced marketing manager to lead our marketing team...",
+    "job_responsibility": "Responsibilities include creating marketing campaigns, managing social media accounts...",
+    "educational_requirements": "Bachelor's degree in marketing, business, or a related field",
+    "experiences": "Minimum of 5 years of experience in marketing, with 2 years in a managerial role",
+    "contact_information": {
+      "phone": "555-5678",
+      "email": "careers@globexcorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "../src/assets/Logo/netflix-4 1.png",
+    "job_title": "IT Support Technician",
+    "company_name": "Initech",
+    "remote_or_onsite": "Onsite",
+    "location": "Austin, TX",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "50,000-60,000",
+    "job_description": "Initech is seeking an IT support technician to provide technical support to our employees...",
+    "job_responsibility": "Responsibilities include installing and configuring hardware and software, troubleshooting...",
+    "educational_requirements": "Associate degree in computer science or a related field",
+    "experiences": "Minimum of 2 years of experience in IT support",
+    "contact_information": {
+      "phone": "555-9012",
+      "email": "careers@initech.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "../src/assets/Logo/CareerHub.png",
+    "job_title": "Graphic Designer",
+    "company_name": "Company A",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$60,000 - $80,000",
+    "job_description": "Company A is seeking a skilled graphic designer to join our creative team...",
+    "job_responsibility": "Responsibilities include creating visual designs for various print and digital projects...",
+    "educational_requirements": "Bachelor's degree in graphic design or a related field",
+    "experiences": "Minimum of 3 years of experience in graphic design",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "careers@companya.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "../src/assets/Logo/Group 10021.png",
+    "job_title": "Software Engineer",
+    "company_name": "Company B",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "Company B is seeking a talented software engineer to join our team...",
+    "job_responsibility": "Responsibilities include developing and testing software solutions, collaborating with team members...",
+    "educational_requirements": "Bachelor's degree in computer science or a related field",
+    "experiences": "Minimum of 4 years of experience in software engineering",
+    "contact_information": {
+      "phone": "555-5678",
+      "email": "careers@companyb.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "../src/assets/Logo/google-1-1 1.png",
+    "job_title": "Marketing Coordinator",
+    "company_name": "Company C",
+    "remote_or_onsite": "Onsite",
+    "location": "Chicago, IL",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$20 - $25/hour",
+    "job_description": "Company C is seeking a marketing coordinator to assist with marketing campaigns and initiatives...",
+    "job_responsibility": "Responsibilities include managing social media accounts, assisting with event planning...",
+    "educational_requirements": "Associate degree in marketing, business, or a related field",
+    "experiences": "Minimum of 1 year of experience in marketing",
+    "contact_information": {
+      "phone": "555-9012",
+      "email": "careers@companyc.com"
+    }
+  }
+]
