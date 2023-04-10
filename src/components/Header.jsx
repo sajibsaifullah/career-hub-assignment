@@ -42,7 +42,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-3xl text-purple-600 font-bold">
+          <a className="btn btn-ghost normal-case text-2xl text-purple-600 font-bold">
             TalentScout
           </a>
         </div>
