@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
+import FeaturedJobs from "./FeaturedJobs";
 import JobCategory from "./JobCategory";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       {/* job category section */}
       <JobCategory />
       {/* featured job section */}
+      <FeaturedJobs />
     </div>
   );
 };
