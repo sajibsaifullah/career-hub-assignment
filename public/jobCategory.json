@@ -1,16 +1,16 @@
 [
   {
-    "category_logo": "../src/assets/Icons/chip 1.png",
+    "category_logo": "../src/assets/Icons/chip-1.png",
     "category_name": "Software Development",
     "jobs_available": 150
   },
   {
-    "category_logo": "../src/assets/Icons/social-media 1.png",
+    "category_logo": "../src/assets/Icons/social-media-1.png",
     "category_name": "Marketing",
     "jobs_available": 100
   },
   {
-    "category_logo": "../src/assets/Icons/business 1.png",
+    "category_logo": "../src/assets/Icons/business-1.png",
     "category_name": "Design",
     "jobs_available": 120
   },
