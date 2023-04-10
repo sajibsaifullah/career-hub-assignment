@@ -1,16 +1,17 @@
-import React from 'react';
+import React from "react";
+import Banner from "./Banner";
+import JobCategory from "./JobCategory";
 
 const Home = () => {
-    return (
-        <div>
-            <h2>This is Home</h2>
-            {/* banner section */}
-
-            {/* job category section */}
-
-            {/* featured job section */}
-        </div>
-    );
+  return (
+    <div>
+      {/* banner section */}
+      <Banner />
+      {/* job category section */}
+      <JobCategory />
+      {/* featured job section */}
+    </div>
+  );
 };
 
 export default Home;
