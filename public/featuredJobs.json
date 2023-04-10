@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "company_logo": "../src/assets/Logo/google.png",
+    "company_logo": "https://api.time.com/wp-content/uploads/2015/09/2003.jpg",
     "job_title": "Software Developer",
     "company_name": "Acme Inc.",
     "remote_or_onsite": "Remote",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "company_logo": "../src/assets/Logo/tesla-9-1.png",
+    "company_logo": "https://logowik.com/content/uploads/images/tesla.jpg",
     "job_title": "Marketing Manager",
     "company_name": "Globex Corporation",
     "remote_or_onsite": "Onsite",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "company_logo": "../src/assets/Logo/netflix-4-1.png",
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
     "job_title": "IT Support Technician",
     "company_name": "Initech",
     "remote_or_onsite": "Onsite",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "company_logo": "../src/assets/Logo/CareerHub.png",
+    "company_logo": "https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png",
     "job_title": "Graphic Designer",
     "company_name": "Company A",
     "remote_or_onsite": "Onsite",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "company_logo": "../src/assets/Logo/Group-10021.png",
+    "company_logo": "https://logos-world.net/wp-content/uploads/2022/05/Alibaba-Logo.png",
     "job_title": "Software Engineer",
     "company_name": "Company B",
     "remote_or_onsite": "Remote",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "company_logo": "../src/assets/Logo/google.png",
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Intel-logo-2022.png",
     "job_title": "Marketing Coordinator",
     "company_name": "Company C",
     "remote_or_onsite": "Onsite",

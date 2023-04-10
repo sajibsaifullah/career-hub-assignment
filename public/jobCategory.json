@@ -1,21 +1,21 @@
 [
   {
-    "category_logo": "../src/assets/Icons/chip-1.png",
+    "category_logo": "https://cdn-icons-png.flaticon.com/512/4368/4368389.png",
     "category_name": "Software Development",
     "jobs_available": 150
   },
   {
-    "category_logo": "../src/assets/Icons/social-media-1.png",
+    "category_logo": "https://cdn-icons-png.flaticon.com/512/3923/3923557.png",
     "category_name": "Marketing",
     "jobs_available": 100
   },
   {
-    "category_logo": "../src/assets/Icons/business-1.png",
+    "category_logo": "https://cdn-icons-png.flaticon.com/512/3159/3159310.png",
     "category_name": "Design",
     "jobs_available": 120
   },
   {
-    "category_logo": "../src/assets/Icons/Frame-2.png",
+    "category_logo": "https://cdn-icons-png.flaticon.com/512/3930/3930266.png",
     "category_name": "Customer Service",
     "jobs_available": 110
   }

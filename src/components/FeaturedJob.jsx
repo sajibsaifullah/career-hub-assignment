@@ -5,7 +5,7 @@ const FeaturedJob = ({ featuredJob }) => {
 //   console.log(featuredJob);
   return (
     <div className="border rounded-md pl-8 py-4">
-      <img src={featuredJob.company_logo} alt="logo" />
+      <img className="w-[30%] h-[30%]" src={featuredJob.company_logo} alt="logo" />
       <h3 className="text-xl font-bold my-3">{featuredJob.company_name}</h3>
       <div className="flex gap-8">
         <p className="border rounded-sm px-2 text-blue-500">
