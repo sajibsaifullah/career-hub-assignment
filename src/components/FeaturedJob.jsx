@@ -1,8 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 
 const FeaturedJob = ({ featuredJob }) => {
-//   console.log(featuredJob);
+  // console.log(featuredJob.id);
+  const navigate = useNavigate();
+
   return (
     <div className="border rounded-md pl-8 md:py-4 py-12">
       <img className="w-[30%] h-[30%]" src={featuredJob.company_logo} alt="logo" />
@@ -22,7 +25,7 @@ const FeaturedJob = ({ featuredJob }) => {
         </div>
         <p>{featuredJob.salary}</p>
       </div>
-      <button className="btn bg-purple-500">View Details</button>
+      <button onClick={() => navigate(`jobDetail/${featuredJob.id}`)} className="btn bg-purple-500">View Details</button>
     </div>
   );
 };
