@@ -1,7 +1,35 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
+// import { addToDb } from '../utilities/fakedb';
 
 const Job = ({job, dynamic}) => {
-    // console.log(dynamic.jobId);
+    // console.log(job);
+    // const navigate = useNavigate();
+
+    const handleApplyNow = (job) => {
+        // console.log(job);
+        // addToDb({id});
+        console.log(job);
+        const prevStoredJob = JSON.parse(localStorage.getItem("stored-job"));
+        let storedJob = [];
+        const jobDes = job;
+
+        if(prevStoredJob){
+            const isJobApplied = prevStoredJob.find((aj) => aj.id == job.id);
+            if(isJobApplied){
+                alert('already applied');
+            }else{
+                storedJob.push(...prevStoredJob, jobDes);
+                localStorage.setItem("stored-job", JSON.stringify(storedJob));
+            }
+        }
+        else{
+            storedJob.push(jobDes);
+            localStorage.setItem("stored-job", JSON.stringify(storedJob));
+        }
+
+    };
+    
     return (
         <div className='container mx-auto flex flex-col lg:flex-row justify-between gap-8'>
             <div className='lg:w-[60%]'>
@@ -29,7 +57,13 @@ const Job = ({job, dynamic}) => {
                         <p><span className='font-bold'>Phone: &nbsp;</span> {job.contact_information.phone}</p>
                         <p><span className='font-bold'>Email: &nbsp;</span> {job.contact_information.email}</p>
                         <p className='pb-8'><span className='font-bold'>Address: &nbsp;</span> {job.location}</p>
-                        <button className='background'>Apply Now</button>
+                        
+                        <button onClick={() => handleApplyNow(job)} className='background'>Apply Now</button>
+
+                        {
+                            
+                        }
+                        
                     </div>
                 }
             </div>

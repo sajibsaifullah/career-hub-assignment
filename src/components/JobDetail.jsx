@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Job from './Job';
 
 const JobDetail = () => {
@@ -25,6 +25,10 @@ const JobDetail = () => {
                         dynamic={dynamic}
                     ></Job>)
                 }
+            </div>
+
+            <div className='text-center'>
+                <Link to="/"><button className='background'>Back To Home</button> </Link>
             </div>
 
         </div>
