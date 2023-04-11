@@ -6,7 +6,7 @@ const FeaturedJobs = () => {
   const featuredJobs = useLoaderData();
   const [showAll, setShowAll] = useState(false);
 
-  const hnadleShowAll = () => {
+  const handleShowAll = () => {
     setShowAll(true);
   };
   // console.log(featuredJobs[0]);
@@ -27,7 +27,7 @@ const FeaturedJobs = () => {
       </div>
       <div className="text-center mt-4">
         {
-            !showAll && <button onClick={hnadleShowAll} className="btn background">See All Jobs</button>
+            !showAll && <button onClick={handleShowAll} className="btn background">See All Jobs</button>
         }
       </div>
     </div>
