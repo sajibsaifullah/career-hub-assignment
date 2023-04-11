@@ -42,9 +42,9 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-2xl text-purple-600 font-bold">
+          <Link to="/" className="btn btn-ghost normal-case text-2xl text-purple-600 font-bold">
             TalentScout
-          </a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -65,7 +65,7 @@ const Header = () => {
         </div>
         <div className="navbar-end">
           <Link className="btn bg-purple-500">
-            S<span className="lowercase">tar</span> &nbsp; A
+            S<span className="lowercase">tart</span> &nbsp; A
             <span className="lowercase">pplying</span>
           </Link>
         </div>
