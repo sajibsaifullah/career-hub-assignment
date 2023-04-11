@@ -15,7 +15,7 @@ const JobDetail = () => {
     },[])
     return (
         <div>
-            <h2 className='text-3xl text-center font-bold bg-slate-100 h-48 flex items-center justify-center'>Job details</h2>
+            <h2 className='text-3xl text-center font-bold bg-slate-100 h-48 flex items-center justify-center'>Job Details</h2>
             <div>
                 {
                     // jobs.map(job => <p>{job.id==dynamic.jobId ? job.company_name : ''}</p>)
