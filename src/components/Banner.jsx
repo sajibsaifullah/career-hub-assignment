@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../assets/Images/profileImg.png';
 import profileImg from '../assets/Images/profileImg.png';
 
 

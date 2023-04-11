@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 
 const FeaturedJob = ({ featuredJob }) => {
-  // console.log(featuredJob.id);
   const navigate = useNavigate();
 
   return (

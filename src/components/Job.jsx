@@ -1,11 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-// import { addToDb } from '../utilities/fakedb';
 
 const Job = ({job, dynamic}) => {
-    // console.log(job);
-    // const navigate = useNavigate();
-
     const handleApplyNow = (job) => {
         // console.log(job);
         // addToDb({id});

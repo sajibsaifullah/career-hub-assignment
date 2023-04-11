@@ -1,10 +1,8 @@
 import React from "react";
-// import { useLoaderData } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Applied from "./Applied";
 
 const AppliedJobs = () => {
-  // const appliedJobs = useLoaderData();
-  // console.log(appliedJobs);
 
   const appliedJob = JSON.parse(localStorage.getItem('stored-job'));
   console.log(appliedJob);
@@ -18,6 +16,10 @@ const AppliedJobs = () => {
           appliedJob.map(job => <Applied key={job.id} job={job}></Applied>)
         }
       </div>
+
+      <div className='text-center'>
+                <Link to="/"><button className='background'>Back To Home</button> </Link>
+            </div>
     </div>
   );
 };

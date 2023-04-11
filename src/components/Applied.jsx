@@ -1,10 +1,7 @@
 import React from "react";
 import { MapPinIcon } from "@heroicons/react/24/solid";
-// import { getAppliedJobs } from "../utilities/fakedb";
 
 const Applied = ({ job }) => {
-  // const jobId = getAppliedJobs();
-  // console.log(job);
   return (
     <div className="lg:mx-72 pl-4 mb-4 border rounded-xl ">
       <div className="lg:flex justify-stretch items-center lg:gap-24 py-4">
