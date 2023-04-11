@@ -4,7 +4,7 @@ import { MapPinIcon } from "@heroicons/react/24/solid";
 const FeaturedJob = ({ featuredJob }) => {
 //   console.log(featuredJob);
   return (
-    <div className="border rounded-md pl-8 py-4">
+    <div className="border rounded-md pl-8 md:py-4 py-12">
       <img className="w-[30%] h-[30%]" src={featuredJob.company_logo} alt="logo" />
       <h3 className="text-xl font-bold my-3">{featuredJob.company_name}</h3>
       <div className="flex gap-8">

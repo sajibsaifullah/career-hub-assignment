@@ -5,7 +5,7 @@ import profileImg from '../assets/Images/profileImg.png';
 
 const Banner = () => {
     return (
-        <div className='grid lg:grid-cols-2 container mx-auto my-8'>
+        <div className='grid lg:grid-cols-2 container mx-auto my-8 pr-3'>
             <div className='mt-16 ml-8'>
                 <h1 className='text-5xl font-bold'>One Step <br /> Closer To Your <br /> <span className='text-purple-400'>Dream Job</span></h1>
                 <p className='my-8'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
