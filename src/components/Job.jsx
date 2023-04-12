@@ -1,5 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Job = ({job, dynamic}) => {
     const handleApplyNow = (job) => {
@@ -13,7 +15,8 @@ const Job = ({job, dynamic}) => {
         if(prevStoredJob){
             const isJobApplied = prevStoredJob.find((aj) => aj.id == job.id);
             if(isJobApplied){
-                alert('already applied');
+                // alert('already applied');
+                toast("already applied for the post!!!");
             }else{
                 storedJob.push(...prevStoredJob, jobDes);
                 localStorage.setItem("stored-job", JSON.stringify(storedJob));
@@ -22,6 +25,7 @@ const Job = ({job, dynamic}) => {
         else{
             storedJob.push(jobDes);
             localStorage.setItem("stored-job", JSON.stringify(storedJob));
+            toast("successfully applied");
         }
 
     };
@@ -54,11 +58,11 @@ const Job = ({job, dynamic}) => {
                         <p><span className='font-bold'>Email: &nbsp;</span> {job.contact_information.email}</p>
                         <p className='pb-8'><span className='font-bold'>Address: &nbsp;</span> {job.location}</p>
                         
+                        <div>
                         <button onClick={() => handleApplyNow(job)} className='background'>Apply Now</button>
+                        <ToastContainer />
+                        </div>
 
-                        {
-                            
-                        }
                         
                     </div>
                 }
