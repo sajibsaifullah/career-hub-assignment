@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="mt-6 bg-black text-white py-6 px-6">
       {/* <h2 className='text-2xl'>This is Footer</h2> */}
-      <div class="lg:grid grid-cols-4 gap-4">
+      <div className="lg:grid grid-cols-4 gap-4">
         <div className="text-center">
             <h3 className="text-3xl">TalentScout</h3>
             <p className="text-sm text-justify py-2">There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
