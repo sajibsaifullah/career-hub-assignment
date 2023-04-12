@@ -20,6 +20,7 @@ const Job = ({job, dynamic}) => {
             }else{
                 storedJob.push(...prevStoredJob, jobDes);
                 localStorage.setItem("stored-job", JSON.stringify(storedJob));
+                toast("successfully applied");
             }
         }
         else{
