@@ -5,7 +5,7 @@ const Job = ({job, dynamic}) => {
     const handleApplyNow = (job) => {
         // console.log(job);
         // addToDb({id});
-        console.log(job);
+        // console.log(job);
         const prevStoredJob = JSON.parse(localStorage.getItem("stored-job"));
         let storedJob = [];
         const jobDes = job;
