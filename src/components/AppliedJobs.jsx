@@ -5,7 +5,7 @@ import Applied from "./Applied";
 const AppliedJobs = () => {
 
   const appliedJob = JSON.parse(localStorage.getItem('stored-job'));
-  console.log(appliedJob);
+  // console.log(appliedJob);
 
   return (
     <div>

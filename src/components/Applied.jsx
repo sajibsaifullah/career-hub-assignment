@@ -3,7 +3,7 @@ import { MapPinIcon } from "@heroicons/react/24/solid";
 
 const Applied = ({ job }) => {
   return (
-    <div className="lg:mx-72 pl-4 mb-4 border rounded-xl ">
+    <div className="lg:mx-72 pl-4 mb-4 border rounded-xl px-4">
       <div className="lg:flex justify-stretch items-center lg:gap-24 py-4">
         <img className="w-[20%] h-[20%]" src={job.company_logo} alt="logo" />
         <div>
